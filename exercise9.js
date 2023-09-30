@@ -1,8 +1,5 @@
-for (let i = 0; i <= prompt("Будь ласка, введіть число більше ніж 100"); i++) {
-  if (i < 100) {
-    break;
-  } else {
-    prompt("Будь ласка, введіть ще раз");
-  }
-  console.log(i);
-}
+let num;
+do {
+  num = prompt("Enter number that is bigger than 100");
+  console.log(num);
+} while (num < 100);
